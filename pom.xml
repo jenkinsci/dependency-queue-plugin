@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>dependency-queue-plugin</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <name>Dependency Queue Plugin</name>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/Dependency+Queue+Plugin</url>
