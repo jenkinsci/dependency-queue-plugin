@@ -1,0 +1,14 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+    xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt" xmlns:p="/lib/hudson/project"
+    xmlns:this="this">  
+
+    <f:optionalBlock 
+        name="blockWhileUpstreamQueued"
+        title="Block if upstream jobs are queued" 
+        inline="true"
+        checked="${instance == null ? true : instance.blockWhileUpstreamQueued}"
+        help="/descriptor/org.jenkinsci.plugins.dependencyqueue.BlockWhileUpstreamQueuedProperty/help">       
+    </f:optionalBlock>
+
+</j:jelly>
